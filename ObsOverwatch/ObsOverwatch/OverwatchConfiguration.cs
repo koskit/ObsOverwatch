@@ -65,7 +65,7 @@ namespace ObsOverwatch
             {
                 ConsecutiveStrains = 5,
                 SecondsAfterStopBeforeStart = 3,
-                StrainRestartLimit = 1,
+                StrainRestartLimit = 0.9,
                 WebsocketAddress = "ws://localhost:4444",
                 WebsocketPassword = string.Empty
             };

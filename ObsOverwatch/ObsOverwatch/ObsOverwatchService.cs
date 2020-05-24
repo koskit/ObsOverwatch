@@ -29,7 +29,7 @@ namespace ObsOverwatch
             ObsWebSocket.StreamStatus += OnStreamStatusReceived;
 
             ObsWebSocket.Connect(
-                Configuration.WebsocketAddress, "");
+                Configuration.WebsocketAddress, Configuration.WebsocketPassword);
 
             return true;
         }
